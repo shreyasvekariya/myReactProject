@@ -25,9 +25,6 @@ function Layoutpage(){
                         <li class="nav-item">
                             <Link to="/insert" class="nav-link" >Insert Item </Link>
                         </li>
-                        <li class="nav-item">
-                            <Link to="/bill" class="nav-link" >Bill </Link>
-                        </li>
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
