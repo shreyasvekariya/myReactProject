@@ -10,7 +10,6 @@ import Crud from './Backend/crudPage';
 import Insertdata from './Backend/insertPage';
 import Updatedata from './Backend/updatePage';
 import GetById from './Backend/getByid';
-import Bill from './Backend/bill';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,7 +21,6 @@ root.render(
     <Route path='/getAll' element={<Crud/>}/>
     <Route path='/getAll/:id' element={<GetById/>}/>
     <Route path='/getAll/update/:id' element={<Updatedata/>}/>
-    <Route path="/getAll/bill" element={<Bill/>} />
     </Route>
   </Routes>
   </BrowserRouter>
